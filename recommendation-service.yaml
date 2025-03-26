@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: recommendation-server
-          image: 651706756261.dkr.ecr.ap-northeast-2.amazonaws.com/recommendation_service:15
+          image: 651706756261.dkr.ecr.ap-northeast-2.amazonaws.com/recommendation_service:16
           imagePullPolicy: Always
           env:
             - name: DB_HOST
